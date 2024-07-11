@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+
+<div th:replace="~{nav :: navbar}"></div>
+
+<form th:action="@{|/delete/${id}|}" method="post">
+    <input type="text" name="id" th:value="${item.id}">
+<input type="submit" value="️️️️️️🗑️id">
+</form>
+
+</body>
+</html>
